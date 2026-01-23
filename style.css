@@ -229,11 +229,18 @@ body{
     from { transform: scale(0.7); opacity: 0; }
     to { transform: scale(1); opacity: 1; }
 }
+
+main {
+  flex: 1;
+}
+
 .footer {
     background-color: #1a1a1a;
     color: #ffffff;
     padding: 40px 0 20px 0;
     font-family: Arial, sans-serif;
+    width: 100%;
+    margin-top: auto;
 }
 
 .footer-container {
