@@ -328,7 +328,7 @@ main {
 
 /* Logo */
 .header-logo img {
-    max-height: 50px; /* Kontrollon lartësinë e logos */
+    max-height: 50px; 
     width: auto;
     display: block;
 }
@@ -337,7 +337,7 @@ main {
 .nav-menu {
     list-style: none;
     display: flex;
-    gap: 30px; /* Hapësira mes linqeve */
+    gap: 30px; 
     margin: 0;
     padding: 0;
 }
@@ -351,7 +351,7 @@ main {
 }
 
 .nav-menu li a:hover {
-    color: #00d1b2; /* Ngjyra që përdorëm te footer-i */
+    color: #00d1b2; 
 }
 
 /* Butoni CTA */
@@ -372,10 +372,10 @@ main {
 /* --- Përshtatja për Celular --- */
 @media (max-width: 768px) {
     .nav-menu {
-        display: none; /* Fshihet menuja klasike në celular */
+        display: none; 
     }
     
     .header-container {
-        justify-content: center; /* Centron logon në celular */
+        justify-content: center; 
     }
 }
