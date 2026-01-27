@@ -116,7 +116,7 @@ body{
 .contact-row {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
     width: 95%;
     max-width: 600px;
     margin: 30px auto;
@@ -342,7 +342,7 @@ main {
 .nav-menu {
     list-style: none;
     display: flex;
-    gap: 30px; 
+    gap: 70px; 
     margin: 0;
     padding: 0;
 }
@@ -351,7 +351,7 @@ main {
     text-decoration: none;
     color: #ffffff;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 25px;
     transition: color 0.3s ease;
 }
 
