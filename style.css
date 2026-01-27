@@ -88,7 +88,7 @@ body{
     border-radius: 20px;
     padding: 10px;
     color: white;
-    width: 100%;
+    width: 95%;
     height: 400px; 
     overflow-y: auto;
     display: flex;
@@ -150,10 +150,6 @@ body{
 @media (max-width: 600px) {
     .grid-4-columns {
         grid-template-columns: 1fr;
-           width: 100%;
-    margin: 20px auto;
-    padding: 0 12px;
-    box-sizing: border-box;
     }
     .contact-row {
         flex-direction: row;
