@@ -7,6 +7,85 @@ flex-direction: column;
 font-family: Arial, Helvetica, sans-serif;   
 }
 
+.header {
+    background-color: #0f2027;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.permbajtjaeheader {
+    max-width: auto;
+    margin: 0 auto;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-height: 50px; 
+    width: auto;
+    display: block;
+}
+
+.menujaenavigimit {
+    list-style: none;
+    display: flex;
+    gap: 70px; 
+    margin: 0;
+    padding: 0;
+}
+
+.menujaenavigimit li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 25px;
+    transition: color 0.3s ease;
+}
+
+.menujaenavigimit li a:hover {
+    color: #00d1b2; 
+}
+
+
+.kkontakt {
+    background-color: #808080;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.kkontakt:hover {
+    background-color: #00b89c;
+}
+
+.faqjarrethmeje {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(128,128,128);
+  font-family: sans-serif;
+}
+
+.permbajtja {
+  flex: 1;
+}
+
+.faqjadizajneve {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .qender {
 display: block;
 margin-left: auto;
@@ -47,11 +126,26 @@ display: block;
 .ani2 { animation-delay: 1.5s; }
 .ani3 { animation-delay: 2.5s; }
 .ani4 { animation-delay: 3.5s; }
+.ani5 { animation-delay: 3.7s; }
+.ani6 { animation-delay: 3.9s; }
+.ani7 { animation-delay: 4.1s; }
+.ani8 { animation-delay: 4.3s; }
+.ani9 { animation-delay: 4.5s; }
 .aninextpage { 
     animation-delay: 3.7s; 
 }
 
 .bqender {
+    color: white; 
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 15px 35px; 
+    border-radius: 50px; 
+    margin-top: 30px;
+    margin-bottom: 20px; 
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -257,10 +351,26 @@ main {
     min-width: 200px;
 }
 
-.tekstet h3, .footer-section h4 {
+.tekstet h3 {
+    text-align: left;
     color: #00d1b2;
     margin-bottom: 20px;
 }
+
+.tekstet h4 {
+     text-align: center;
+    color: #00d1b2;
+    margin-bottom: 20px;
+
+}
+
+.tekstet h5 {
+     text-align: right;
+    color: #00d1b2;
+    margin-bottom: 20px;
+
+}
+
 
 .tekstet p {
     line-height: 1.6;
@@ -268,6 +378,7 @@ main {
 }
 
 .tekstet ul {
+    text-align: center;
     list-style: none;
     padding: 0;
 }
@@ -288,6 +399,7 @@ main {
 }
 
 .linqet a {
+    text-align: right;
     display: block;
     color: #bbb;
     margin-bottom: 8px;
@@ -306,85 +418,24 @@ main {
     font-size: 13px;
     color: #777;
 }
-/* --- Stilimi i Header-it --- */
-.header {
-    background-color: #0f2027;
-    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
-    padding: 15px 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+
+.blink {
+    color: rgb(255, 255, 255);
+        font-size: 20px;
+        display: inline-block;
+        min-width: fit-content;
+        padding: 15px 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+        border: 2px solid rgba(255, 255, 255, 0.4);
+        border-radius: 50px;
 }
 
-.permbajtjaeheader {
-    max-width: auto;
-    margin: 0 auto;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-}
-
-/* Logo */
-.logo img {
-    max-height: 50px; 
-    width: auto;
-    display: block;
-}
-
-/* Menuja */
-.menujaenavigimit {
-    list-style: none;
-    display: flex;
-    gap: 70px; 
-    margin: 0;
-    padding: 0;
-}
-
-.menujaenavigimit li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 25px;
-    transition: color 0.3s ease;
-}
-
-.menujaenavigimit li a:hover {
-    color: #00d1b2; 
-}
-
-
-.kkontakt {
-    background-color: #808080;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s ease;
-}
-
-.kkontakt:hover {
-    background-color: #00b89c;
-}
-
-
-.faqjarrethmeje {
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(128,128,128);
-  font-family: sans-serif;
-}
-
-.permbajtja {
-  flex: 1;
-}
-
-.faqjadizajneve {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.blqender {
+    display: flex; 
+    justify-content: center; 
+    width: 100%; 
+    margin: 60px 0;
 }
