@@ -1,38 +1,35 @@
 html, body{
-    margin: 0%;
-    min-height: 100vh;
-     background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-     display: flex;
-     flex-direction: column;
-
+margin: 0%;
+min-height: 100vh;
+background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+display: flex;
+flex-direction: column;
+font-family: Arial, Helvetica, sans-serif;   
 }
 
-
-body{
-  .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  font-family: Arial, Helvetica, sans-serif;
-}
+.qender {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+font-family: Arial, Helvetica, sans-serif;
 }
     
- .glass{
- width: fit-content; 
-    margin-left: auto;
-    margin-right: auto;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
-    padding: 15px 30px; 
-    display: block;
+.xhamefekt {
+width: fit-content; 
+margin-left: auto;
+margin-right: auto;
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border-radius: 20px;
+border: 1px solid rgba(255, 255, 255, 0.2);
+box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+padding: 15px 30px; 
+display: block;
 }
 
-.one-by-one {
+.animacion {
     opacity: 0;
     animation: shfaqja 0.8s ease-out forwards;
 }
@@ -46,24 +43,24 @@ body{
         transform: translateY(0);
     }
 }
-.vonese-1 { animation-delay: 0.5s; }
-.vonese-2 { animation-delay: 1.5s; }
-.vonese-3 { animation-delay: 2.5s; }
-.vonese-4 { animation-delay: 3.5s; }
-.vonese-butoni { 
+.ani1 { animation-delay: 0.5s; }
+.ani2 { animation-delay: 1.5s; }
+.ani3 { animation-delay: 2.5s; }
+.ani4 { animation-delay: 3.5s; }
+.aninextpage { 
     animation-delay: 3.7s; 
 }
 
-.btn-center {
+.bqender {
     display: inline-block;
     text-align: center;
     text-decoration: none;
     transition: all 0.6s ease;
 }
 
-.btn-center:hover {
-    background: rgba(255, 255, 255, 0.3) !important;
-    transform: scale(1) !important;
+.bqender:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1);
      transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), 
                 box-shadow 0.6s ease, 
                 background 0.6s ease,
@@ -71,7 +68,7 @@ body{
 
 }
 
-.grid-4-columns {
+.kolonat {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -80,7 +77,7 @@ body{
     margin: 40px auto;
 }
 
-.glass-box-fixed {
+.efektxhami {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
@@ -98,22 +95,22 @@ body{
                 background 0.6s ease;
 }
 
-.glass-box-fixed:hover {
+.efektxhami:hover {
     transform: scale(1.03);
     background: rgba(255, 255, 255, 0.18);
     box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
     border-color: rgba(255, 255, 255, 0.5);
 }
 
-.glass-box-fixed::-webkit-scrollbar {
+.efektxhami::-webkit-scrollbar {
     width: 6px;
 }
-.glass-box-fixed::-webkit-scrollbar-thumb {
+.efektxhami::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
 }
 
-.contact-row {
+.rrjeshtikontakteve {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -122,7 +119,7 @@ body{
     margin: 30px auto;
 }
 
-.contact-btn {
+.butkontaktit {
     flex: 1;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -136,41 +133,41 @@ body{
     transition: 0.6s ease;
 }
 
-.contact-btn:hover {
+.butkontaktit:hover {
     background: rgba(255, 255, 255, 0.3);
     transform: translateY(-5px);
 }
 
 @media (max-width: 992px) {
-    .grid-4-columns {
+    .kolonat {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 600px) {
-    .grid-4-columns {
+    .kolonat {
         grid-template-columns: 1fr;
     }
-    .contact-row {
+    .rrjeshtikontakteve {
         flex-direction: row;
         font-size: 12px;
     }
 }
 
-.vonese-f1 { animation-delay: 0.6s; }
-.vonese-f2 { animation-delay: 0.8s; }
-.vonese-f3 { animation-delay: 1.0s; }
-.vonese-f4 { animation-delay: 1.2s; }
-.vonese-f5 { animation-delay: 1.4s; }
-.vonese-f6 { animation-delay: 1.6s; }
-.vonese-f7 { animation-delay: 1.8s; }
-.vonese-f8 { animation-delay: 2.0s; }
-.vonese-f9 { animation-delay: 2.2s; }
-.vonese-f10 { animation-delay: 2.4s; }
-.vonese-f11 { animation-delay: 2.6s; }
-.vonese-f12 { animation-delay: 2.8s; }
+.anid1 { animation-delay: 0.6s; }
+.anid2 { animation-delay: 0.8s; }
+.anid3 { animation-delay: 1.0s; }
+.anid4 { animation-delay: 1.2s; }
+.anid5 { animation-delay: 1.4s; }
+.anid6 { animation-delay: 1.6s; }
+.anid7 { animation-delay: 1.8s; }
+.anid8 { animation-delay: 2.0s; }
+.anid9 { animation-delay: 2.2s; }
+.anid10 { animation-delay: 2.4s; }
+.anid11 { animation-delay: 2.6s; }
+.anid12 { animation-delay: 2.8s; }
 
-.portfolio-grid {
+.portfoli {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -179,7 +176,7 @@ body{
     margin: 40px auto;
 }
 
-.portfolio-item {
+.dizajnet {
     height: 300px;
     border-radius: 20px;
     overflow: hidden;
@@ -189,39 +186,37 @@ body{
     transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.7s ease;
 }
 
-.portfolio-item img {
+.dizajnet img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.9s ease;
 }
 
-.portfolio-item:hover {
+.dizajnet:hover {
     transform: scale(1.05);
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
     border-color: rgba(255, 255, 255, 0.5);
     cursor: pointer;
 }
 
-.portfolio-item:hover img {
+.dizajnet:hover img {
     transform: scale(1.15);
 }
 
 @media (max-width: 768px) {
-    .portfolio-grid {
+    .portfoli {
         grid-template-columns: 1fr;
     }
 }
 
 @media (max-width: 768px) {
-    .item-center {
+    .dizajnqender {
         grid-column: auto;
     }
 }
-.vonese-butoni-kthehu {
-    animation-delay: 1.5s;
-}
-.portfolio-item {
+
+.dizajnet {
     cursor: zoom-in;
 }
 
@@ -247,7 +242,7 @@ main {
     margin-top: auto;
 }
 
-.footer-container {
+.permbajtjafooter {
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
@@ -256,54 +251,54 @@ main {
     padding: 0 20px;
 }
 
-.footer-section {
+.tekstet {
     flex: 1;
     margin: 10px;
     min-width: 200px;
 }
 
-.footer-section h3, .footer-section h4 {
+.tekstet h3, .footer-section h4 {
     color: #00d1b2;
     margin-bottom: 20px;
 }
 
-.footer-section p {
+.tekstet p {
     line-height: 1.6;
     font-size: 14px;
 }
 
-.footer-section ul {
+.tekstet ul {
     list-style: none;
     padding: 0;
 }
 
-.footer-section ul li {
+.tekstet ul li {
     margin-bottom: 10px;
 }
 
-.footer-section ul li a {
+.tekstet ul li a {
     color: #bbb;
     text-decoration: none;
     transition: 0.3s;
 }
 
-.footer-section ul li a:hover {
+.tekstet ul li a:hover {
     color: #fff;
     padding-left: 5px;
 }
 
-.social-links a {
+.linqet a {
     display: block;
     color: #bbb;
     margin-bottom: 8px;
     text-decoration: none;
 }
 
-.social-links a:hover {
+.linqet a:hover {
     color: #00d1b2;
 }
 
-.footer-bottom {
+.fundi {
     text-align: center;
     margin-top: 30px;
     padding-top: 20px;
@@ -312,7 +307,7 @@ main {
     color: #777;
 }
 /* --- Stilimi i Header-it --- */
-.main-header {
+.header {
     background-color: #0f2027;
     box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
     padding: 15px 0;
@@ -321,7 +316,7 @@ main {
     z-index: 1000;
 }
 
-.header-container {
+.permbajtjaeheader {
     max-width: auto;
     margin: 0 auto;
     left: 0;
@@ -332,14 +327,14 @@ main {
 }
 
 /* Logo */
-.header-logo img {
+.logo img {
     max-height: 50px; 
     width: auto;
     display: block;
 }
 
 /* Menuja */
-.nav-menu {
+.menujaenavigimit {
     list-style: none;
     display: flex;
     gap: 70px; 
@@ -347,7 +342,7 @@ main {
     padding: 0;
 }
 
-.nav-menu li a {
+.menujaenavigimit li a {
     text-decoration: none;
     color: #ffffff;
     font-weight: 500;
@@ -355,12 +350,12 @@ main {
     transition: color 0.3s ease;
 }
 
-.nav-menu li a:hover {
+.menujaenavigimit li a:hover {
     color: #00d1b2; 
 }
 
 
-.btn-contact {
+.kkontakt {
     background-color: #808080;
     color: white;
     padding: 10px 20px;
@@ -370,12 +365,12 @@ main {
     transition: background 0.3s ease;
 }
 
-.btn-contact:hover {
+.kkontakt:hover {
     background-color: #00b89c;
 }
 
 
-.page-about {
+.faqjarrethmeje {
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -384,11 +379,11 @@ main {
   font-family: sans-serif;
 }
 
-.page-content {
+.permbajtja {
   flex: 1;
 }
 
-.page-works {
+.faqjadizajneve {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
